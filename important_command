@@ -1,0 +1,6 @@
+#local to server secure copy
+scp  <file_name> user@<server_ip>:<path_of_server>
+#server to local
+scp user@<server_ip>:<path_of_server/file_name> .
+#from url
+wget <url>
